@@ -7,3 +7,4 @@ Hello,  this is some project to improve my skills. You can see my project on web
 
 
 I will update this project soon.
+Thanks for reading!!
