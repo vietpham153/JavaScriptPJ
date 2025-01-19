@@ -14,7 +14,7 @@ btns.forEach(btn =>{
         }else{
             count++;
         }
+        value.textContent = count;
+        value.style.color = count > 0 ? "green" : count < 0 ? "red" : "#007bff"
     })
-    value.textContent = count;
-    value.style.color = count > 0 ? "green" : count < 0 ? "red" : "#007bff"
 })
