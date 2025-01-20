@@ -10,6 +10,8 @@ Hello,  this is some project to improve my skills. You can see my project on web
 - https://vietpham153.github.io/JavaScriptPJ/PJ9/
 - https://vietpham153.github.io/JavaScriptPJ/PJ10/
 - https://vietpham153.github.io/JavaScriptPJ/PJ11/
+- https://vietpham153.github.io/JavaScriptPJ/PJ12/
+
 
 - .......
 
