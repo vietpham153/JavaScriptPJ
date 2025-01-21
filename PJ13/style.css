@@ -39,7 +39,7 @@ button{
     border-radius: 50%;
     cursor: pointer;
     position: absolute;
-    top: 16%;
+    top: 25%;
     left: 85%;
     transform: translateY(-48%);
 }
