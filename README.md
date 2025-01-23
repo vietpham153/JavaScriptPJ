@@ -11,7 +11,14 @@ Hello,  this is some project to improve my skills. You can see my project on web
 - https://vietpham153.github.io/JavaScriptPJ/PJ10/
 - https://vietpham153.github.io/JavaScriptPJ/PJ11/
 - https://vietpham153.github.io/JavaScriptPJ/PJ12/
-
+- https://vietpham153.github.io/JavaScriptPJ/PJ13/
+- https://vietpham153.github.io/JavaScriptPJ/PJ14/
+- https://vietpham153.github.io/JavaScriptPJ/PJ15/
+- https://vietpham153.github.io/JavaScriptPJ/PJ16/
+- https://vietpham153.github.io/JavaScriptPJ/PJ17/
+- https://vietpham153.github.io/JavaScriptPJ/PJ18/
+- https://vietpham153.github.io/JavaScriptPJ/PJ19/
+- https://vietpham153.github.io/JavaScriptPJ/PJ20/
 
 - .......
 
