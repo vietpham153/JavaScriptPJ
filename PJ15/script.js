@@ -1,5 +1,5 @@
 
-
+let intervalId;
 function caculateAge(){
 
     const today = new Date();
@@ -81,5 +81,9 @@ function caculateAge(){
 const ageCalculatorForm = document.getElementById("ageCalculator");
 ageCalculatorForm.addEventListener("submit",(event)=>{
     event.preventDefault();
+    if (intervalId) {
+        clearInterval(intervalId);
+      }
+      intervalId = setInterval(caculateAge, 1000);
     caculateAge();
  });
