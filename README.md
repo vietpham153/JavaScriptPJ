@@ -23,6 +23,8 @@ Hello,  this is some project to improve my skills. You can see my project on web
 - .......
 
 
+PJ15: Github Pages in PJ15 (Age Calculator) is not supported "intervalId"
+
 
 I will update this project soon.
 Thanks for reading!!
