@@ -1,3 +1,1 @@
-const temparature = 35 > 25 ? "it's a hot day" : "it's a cool day"
-
-console.log(temparature);
+const arr = [1,2,3,4,5];
