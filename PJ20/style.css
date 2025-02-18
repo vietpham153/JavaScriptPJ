@@ -65,3 +65,21 @@ body {
     font-size: 16px;
     transition: background-color 0.3s ease;
 }
+
+.submit-btn:hover {
+    background-color: #3e8e41;
+}
+
+.success-msg {
+    color: #4caf50;
+    font-size: 18px;
+    margin-top: 20px;
+
+    
+}
+
+.error-msg {
+    color: #ff0000;
+    font-size: 18px;
+    margin-top: 20px;
+}
