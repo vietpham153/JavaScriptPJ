@@ -1,22 +1,21 @@
-document.ATTRIBUTE_NODE_ATTRIBUTE.ATTRIBUTE_NODE_ATTRIBUTE = {node : node || document };
+const container = document.querySelector(".container");
 
-function parseHTML(html) {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(html, 'text/html');
-  return doc.body.firstChild;
+function dropped(){
+
+    const drop = document.createElement("span");
+
+    drop.classList.add("drop");
+
+    drop.style.top = Math.random() * innerHeight + "px";
+    drop.style.left = Math.random() * innerWidth + "px";
+
+    setTimeout(()=>{
+        drop.remove();
+    },6500);
+
+    container.appendChild(drop)
+
 
 }
 
-function traverse(node) {
-    if (node.nodeType === Node.ELEMENT_NODE) {
-        console.log(`Element: ${node.tagName}`);
-        for (let i = 0; i < node.attributes.length; i++) {
-            console.log(`Attribute: ${node.attributes[i].nodeName} = ${node.attributes[i].nodeValue}`);
-        }
-    }
-    for (let i = 0; i < node.childNodes.length; i++) {
-        traverse(node.childNodes[i]);
-    }
-}
-
-
+setInterval(dropped,500);
